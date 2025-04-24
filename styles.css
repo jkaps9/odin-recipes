@@ -3,3 +3,51 @@
     margin: 0;
     padding: 0;
 }
+
+/* Add font and margin to all HTML files */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    margin: 20px;
+    color: green;
+}
+
+h2 {
+    margin: 20px;
+}
+
+ul, ol {
+    /* Add margin to indent lists compared to the title */
+    margin: 0 40px;
+}
+
+li {
+    /* Separate list items */
+    padding: 5px;
+    /* make list item font bigger */
+    font-size: 18px;
+}
+
+p {
+    margin: 20px;
+}
+
+img {
+    height: auto;
+    width: 600px;
+    margin: 0 20px;
+}
+
+#home-link {
+    display: inline-block;
+    
+    border: 2px solid #333;
+    margin: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+}
